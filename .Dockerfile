@@ -1,5 +1,4 @@
 FROM bitnami/redis
-ENV ALLOW_EMPTY_PASSWORD=yes
 USER root
 RUN apt-get update && \
   apt-get install wget -y && \
