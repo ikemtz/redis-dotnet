@@ -1,4 +1,4 @@
-FROM redis:7.2.4-bookworm
+FROM redis:7.4
 RUN apt-get update \
   && apt-get install wget -y \
   && wget https://packages.microsoft.com/config/debian/12/packages-microsoft-prod.deb -O packages-microsoft-prod.deb \
